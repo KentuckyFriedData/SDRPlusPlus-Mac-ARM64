@@ -41,8 +41,6 @@ jobs:
               name: sdrpp_macos_arm64
               path: ${{runner.workspace}}/sdrpp_macos_arm64.zip
   
-   
-
     # build_ubuntu_bionic:
     #     runs-on: ubuntu-latest
 
