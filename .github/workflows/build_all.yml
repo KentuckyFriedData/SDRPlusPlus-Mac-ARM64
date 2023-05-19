@@ -29,7 +29,7 @@ jobs:
 
         - name: Build
           working-directory: ${{runner.workspace}}/build
-          run: make VERBOSE=1 -j5
+          run: make VERBOSE=1 -j1
 
         - name: Create Archive
           working-directory: ${{runner.workspace}}
