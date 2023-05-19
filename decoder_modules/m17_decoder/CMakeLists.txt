@@ -29,6 +29,8 @@ else ()
     target_include_directories(m17_decoder PRIVATE ${LIBCODEC2_INCLUDE_DIRS})
     target_link_directories(m17_decoder PRIVATE ${LIBCODEC2_LIBRARY_DIRS})
     target_link_libraries(m17_decoder PRIVATE ${LIBCODEC2_LIBRARIES})
+    #Fuck you macOS
+    target_include_directories(m17_decoder PRIVATE "/opt/homebrew/include")
 
     # Include it because for some reason pkgconfig doesn't look here?
     if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
