@@ -1,6 +1,6 @@
 # SDR++, The bloat-free SDR software<br>
 
-![Screenshot](https://i.imgur.com/Ter2MQJ.png)
+![Screenshot](https://de.object-storage.net/apps/sharingpath/Static/Files/SDRPlusPlus.png)
 SDR++ is a cross-platform and open source SDR software with the aim of being bloat free and simple to use.
 
 ![Build](https://github.com/KentuckyFriedData/SDRPlusPlus-Mac-ARM64/actions/workflows/build_all.yml/badge.svg)
